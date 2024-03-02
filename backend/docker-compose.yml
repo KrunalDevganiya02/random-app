@@ -1,0 +1,6 @@
+version: "3"
+services:
+  backend:
+    image: random-app-backend
+    ports:
+      - "7777:8000"
